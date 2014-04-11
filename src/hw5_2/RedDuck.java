@@ -7,4 +7,8 @@ public class RedDuck extends Duck {
 		this.setFlyStrategy( new FlyWithWingStrategy());
 		this.setQuackStrategy( new SqueakStrategy());
 	}
+
+	public void display(){
+		System.out.println("RedDuck");
+	}
 }

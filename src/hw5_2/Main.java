@@ -6,17 +6,18 @@ public class Main {
 		Duck mallardDuck = new MallardDuck();
 		Duck redDuck = new RedDuck();
 
-		System.out.println("MallardDuck");
+		mallardDuck.display();
 		mallardDuck.swim();
 		mallardDuck.fly();
 		mallardDuck.quack();
 
-		System.out.println("RedDuck");
+		redDuck.display();
 		redDuck.swim();
 		redDuck.fly();
 		redDuck.quack();
 
 		System.out.println("RedDuck after change fly strategy");
+		redDuck.display();
 		redDuck.setFlyStrategy( new NoFlyStrategy());
 		redDuck.swim();
 		redDuck.fly();

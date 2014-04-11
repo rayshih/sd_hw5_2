@@ -7,4 +7,8 @@ public class MallardDuck extends Duck {
 		this.setFlyStrategy( new FlyWithWingStrategy());
 		this.setQuackStrategy( new DefaultStrategy());
 	}
+
+	public void display(){
+		System.out.println("MallardDuck");
+	}
 }

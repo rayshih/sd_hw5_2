@@ -6,6 +6,8 @@ public abstract class Duck {
 	private FlyStrategy flyStrategy;
 	private QuackStrategy quackStrategy;
 
+	public abstract void display();
+
 	public void setFlyStrategy(FlyStrategy flyStrategy){
 		this.flyStrategy = flyStrategy;
 	}

@@ -7,4 +7,8 @@ public class RubberDuck extends Duck {
 		this.setFlyStrategy( new FlyWithWingStrategy());
 		this.setQuackStrategy( new SilentStrategy());
 	}
+
+	public void display(){
+		System.out.println("RubberDuck");
+	}
 }

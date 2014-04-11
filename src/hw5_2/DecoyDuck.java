@@ -7,4 +7,8 @@ public class DecoyDuck extends Duck {
 		this.setFlyStrategy( new NoFlyStrategy());
 		this.setQuackStrategy( new SilentStrategy());
 	}
+
+	public void display(){
+		System.out.println("DecoyDuck");
+	}
 }
